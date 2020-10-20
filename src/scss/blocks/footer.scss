@@ -1,0 +1,31 @@
+.footer {
+	min-width: 320px;
+	&__list {
+		display: flex;
+        flex-wrap: wrap;
+		list-style-type: none;
+		margin-top: 0;
+		margin-bottom: 0;
+		text-align: center;    
+		background: #F8F8F8;
+	}
+	&__item {
+		font-family: TT Lakes;
+		font-size: 14px;
+		line-height: 16px;
+		letter-spacing: 0px;
+		text-align: center;
+		color: #7E7E82;
+		mix-blend-mode: normal;
+		opacity: 0.72;
+		line-height: 2;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+.footer__link{
+	text-decoration: none;
+	color: inherit;
+	margin-left: auto;
+		margin-right: auto;
+	  }
